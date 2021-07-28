@@ -1,0 +1,11 @@
+.header_body{
+    display: flex;
+    align-self: center;
+}
+
+.slika_profila{
+    width: 65px;
+    height: 65px;
+    background: transparent;
+
+}

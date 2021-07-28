@@ -1,0 +1,70 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    background: #fbfbfd;
+}
+
+.app_body{
+
+}
+
+.calendar_widget {
+    width: 448px;
+    height: 148px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nova_rezervacija {
+    width: 224px;
+    height: 148px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    color: #43425d;
+}
+.nova_rezervacija_slika{
+    width: 50%;
+    height: 50%;
+    background: transparent;
+}
+
+.klijenti {
+    width: 448px;
+    height: 148px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.financije {
+    width: 448px;
+    height: 148px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.04);
+}
+
+.usluge{
+    width: 334px;
+    height: 341px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.16);
+}
+.tablica{
+    width: 286px;
+    height: 45px;
+    background-color: #F4F5F9;
+}
+.trajanje_usluge{
+    width: 30px;
+    height: 60px;
+}
