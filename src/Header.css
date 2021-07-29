@@ -1,11 +1,38 @@
-.header_body{
-    display: flex;
-    align-self: center;
+.header_body {
+    background: #fbfbfd;
+    top: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
-.slika_profila{
-    width: 65px;
-    height: 65px;
-    background: transparent;
+.logo img {
+    top: 0px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+}
 
+.datum_vrijeme {
+    top: 0px;
+    left: 815px;
+    width: 290px;
+    height: 100px;
+    opacity: 1;
+}
+
+.korisnik {}
+
+.slika_profila {
+    top: 32px;
+    left: 1742px;
+    width: 74px;
+    height: 32px;
+    text-align: left;
+    font: normal normal normal 22px/91px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4CC3BE;
+    opacity: 1;
 }
