@@ -1,5 +1,8 @@
 import './App.css';
+import {Fragment} from "react";
+import {BrowserRouter  as Router, Switch, Route}  from 'react-router-dom';
 import Header from './Header.js';
+//import Login from './login.js'
 
 //importanje asseta
 import nova_rezervacija from './assets/nova_rezervacija_slika.png';
@@ -8,9 +11,10 @@ import cijena_usluge from './assets/cijena_usluge.png';
 
 function App() {
     return (
-    <>
+    <Fragment>
         <Header />
         <div class="app_body">
+            <br></br>
             <h1>Početna ploča</h1>
             <br></br>
             <div class = "kalendar" >
@@ -43,8 +47,29 @@ function App() {
                     </ul>
                 </div>
             </div>
+            <div class="termini">
+                <p>Termin</p>
+                <div class="termin">
+                    Termin 1
+                </div>
+                <div class="termin">
+                    Termin 1
+                </div>
+                <div class="termin">
+                    Termin 1
+                </div>
+                <div class="termin">
+                    Termin 1
+                </div>
+                <div class="termin">
+                    Termin 1
+                </div>
+                <div class="termin">
+                    Termin 1
+                </div>
+            </div>
         </div>
-    </>
+    </Fragment>
     )
 }
 

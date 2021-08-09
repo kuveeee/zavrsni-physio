@@ -1,10 +1,12 @@
-.header_body {
+body{
     background: #fbfbfd;
+}
+
+.header_body {
     top: 0px;
     left: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo img {
@@ -23,7 +25,9 @@
     opacity: 1;
 }
 
-.korisnik {}
+.korisnik {
+    
+}
 
 .slika_profila {
     top: 32px;

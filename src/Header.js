@@ -1,4 +1,6 @@
 import './Header.css';
+import {Fragment} from "react";
+import {BrowserRouter  as Router, Switch, Route}  from 'react-router-dom';
 
 //importanje asseta
 import logo from './assets/logo.png';
@@ -6,7 +8,7 @@ import slika_profila from './assets/slika_profila.png';
 
 function Header() {
     return(
-    <>
+    <Fragment>
         <div class="header_body">
             <div class="logo">
                 <img src={logo} alt="Logo"></img>
@@ -19,7 +21,7 @@ function Header() {
                 <img class="slika_profila" src={slika_profila} alt="Slika profila" />
             </div>
         </div>
-    </>
+    </Fragment>
     )
   }
   

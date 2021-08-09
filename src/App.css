@@ -2,13 +2,17 @@ body {}
 
 .app_body {
     background: #fbfbfd;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
     padding-left: 50px;
 }
 
 h1 {
+    top: 140px;
+    left: 278px;
+    width: 205px;
+    height: 64px;
+    position: fixed;
     text-align: left;
     font: normal normal normal 45px/94px Source Sans Pro;
     letter-spacing: 0px;
@@ -22,6 +26,7 @@ h1 {
     left: 278px;
     width: 448px;
     height: 148px;
+    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
@@ -39,6 +44,7 @@ h1 {
     left: 801px;
     width: 224px;
     height: 148px;
+    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
@@ -62,6 +68,7 @@ h1 {
     left: 278px;
     width: 448px;
     height: 148px;
+    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
@@ -79,6 +86,7 @@ h1 {
     left: 801px;
     width: 448px;
     height: 148px;
+    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000000A;
     border-radius: 12px;
@@ -96,6 +104,7 @@ h1 {
     left: 278px;
     width: 334px;
     height: 341px;
+    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #00000029;
     border-radius: 12px;
@@ -132,3 +141,23 @@ h1 {
 .trajanje_usluge {}
 
 .cijena_suluge {}
+
+.termini {
+    top: 249px;
+    left: 1529px;
+    width: 384px;
+    height: 590px;
+    opacity: 1;
+    position: fixed;
+}
+
+.termin {
+    top: 249px;
+    left: 1529px;
+    width: 384px;
+    height: 79px;
+    background: #F4F5F9 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    margin-bottom: 15px;
+}
