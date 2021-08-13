@@ -12,9 +12,8 @@ body{
 .logo img {
     top: 0px;
     left: 50px;
-    width: 70px;
-    height: 70px;
-    opacity: 1;
+    width: 100px;
+    height: 100px;
 }
 
 .datum_vrijeme {

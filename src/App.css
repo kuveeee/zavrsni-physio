@@ -3,30 +3,27 @@ body {}
 .app_body {
     background: #fbfbfd;
     display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
+    flex-wrap: wrap;
+    padding-left: 70px;
 }
-
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
 h1 {
-    top: 140px;
-    left: 278px;
-    width: 205px;
-    height: 64px;
-    position: fixed;
     text-align: left;
     font: normal normal normal 45px/94px Source Sans Pro;
     letter-spacing: 0px;
     color: #43425D;
-    text-shadow: 0px 3px 6px #00000029;
+    text-shadow: 0px 3px 6px #0000001A;
     opacity: 1;
 }
-
+p{
+    margin-left: 10px;
+}
 .kalendar {
-    top: 260px;
-    left: 278px;
     width: 448px;
     height: 148px;
-    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
@@ -37,14 +34,13 @@ h1 {
     line-height: 30px;
     text-align: left;
     color: #43425d;
+    margin-bottom: 4%;
+    margin-right: 4%;
 }
 
 .nova_rezervacija {
-    top: 260px;
-    left: 801px;
     width: 224px;
     height: 148px;
-    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
@@ -55,6 +51,8 @@ h1 {
     line-height: 30px;
     text-align: left;
     color: #43425d;
+    margin-bottom: 4%;
+    margin-right: 4%;
 }
 
 .nova_rezervacija_slika {
@@ -64,11 +62,8 @@ h1 {
 }
 
 .klijenti {
-    top: 455px;
-    left: 278px;
     width: 448px;
     height: 148px;
-    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
@@ -79,16 +74,15 @@ h1 {
     line-height: 30px;
     text-align: left;
     color: #43425d;
+    margin-bottom: 4%;
+    margin-right: 4%;
 }
 
 .financije {
-    top: 455px;
-    left: 801px;
     width: 448px;
     height: 148px;
-    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 5px 15px #0000000A;
+    box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
     opacity: 1;
     font-family: "Source Sans Pro";
@@ -97,16 +91,15 @@ h1 {
     line-height: 30px;
     text-align: left;
     color: #43425d;
+    margin-bottom: 4%;
+    margin-right: 4%;
 }
 
 .usluge {
-    top: 650px;
-    left: 278px;
     width: 334px;
     height: 341px;
-    position: fixed;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 5px 15px #00000029;
+    box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
     opacity: 1;
     font-family: "Source Sans Pro";
@@ -118,8 +111,6 @@ h1 {
 }
 
 .tablica {
-    top: 707px;
-    left: 298px;
     width: 286px;
     height: 45px;
     background: #F4F5F9 0% 0% no-repeat padding-box;
