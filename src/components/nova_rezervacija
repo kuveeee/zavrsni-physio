@@ -1,0 +1,14 @@
+import './nova rezervacja.css';
+import {Fragment} from "react";
+
+//importanje asseta
+
+function(){
+    return (
+        <Fragment>
+            <div calss="sidebar"></div>
+        </Fragment>
+    )
+}
+
+export default Nova-Rezervacija;

@@ -14,19 +14,13 @@
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    height: 50%;
 }
 .physical_image img{
-    max-width: 50%;
-    max-height: 50%;
 }
 .login_form{
     display:flex;
     flex-wrap: wrap;
-    top: 0px;
-    left: 1000px;
-    width: 1020px;
-    height: 1080px;
-    justify-content: space-between;
 }
 h1{
     height: 64px;
