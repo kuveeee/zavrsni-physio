@@ -1,4 +1,4 @@
-body{
+.body_main{
     background: #FBFBFD 0% 0% no-repeat padding-box;
     display: flex;
     flex-wrap: wrap;
@@ -55,12 +55,16 @@ body{
     font-size: 12px;
 }
 .trajanje{
-    width: 70px;
+    width: 90px;
     height: 39px;
     background: #4CC3BE 0% 0% no-repeat padding-box;
     border-radius: 12px;
     color: white;
     font-size: 12px;
+}
+.trajanje img{
+    width: 19px;
+    height: 19px;
 }
 .cijena{
     width: 70px;
@@ -69,4 +73,8 @@ body{
     border-radius: 12px;
     color: white;
     font-size: 12px;
+}
+.cijena img{
+    width: 19px;
+    height: 19px;
 }

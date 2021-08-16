@@ -1,11 +1,11 @@
-import './Header.css';
+import '../Header.css';
 import {Fragment} from "react";
 import {BrowserRouter  as Router, Switch, Route}  from 'react-router-dom';
-import Login from '../login';
+import Login from './login';
 
 //importanje asseta
-import logo from './assets/logo.png';
-import slika_profila from './assets/slika_profila.png';
+import logo from '../assets/logo.png';
+import slika_profila from '../assets/slika_profila.png';
 
 function Header() {
     return(
