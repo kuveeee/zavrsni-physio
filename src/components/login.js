@@ -1,10 +1,10 @@
-import '../login.css';
+import '../styles/login.css';
 import {Fragment} from "react";
 import {BrowserRouter  as Router, Switch, Route}  from 'react-router-dom';
 
 //importanje asseta
-import logo from '../assets/logo.png';
-import physical_image from '../assets/login/physical2x.png';
+import logo from './assets/logo.png';
+import physical_image from './assets/login_assets/physical2x.png';
 
 function Login(){
     return (

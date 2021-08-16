@@ -1,4 +1,7 @@
 import React from 'react'
+import '../styles/sidebar.css'
+
+//assets
 import logo from "../assets/logo.png";
 
 function Sidebar() {
