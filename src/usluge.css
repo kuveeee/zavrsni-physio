@@ -1,37 +1,63 @@
-.body_main{
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body {
     background: #FBFBFD 0% 0% no-repeat padding-box;
     display: flex;
     flex-wrap: wrap;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
 .break {
     flex-basis: 100%;
     height: 0;
 }
+
 .break-column {
     flex-basis: 100%;
     width: 0;
 }
-.sidebar{
+
+.sidebar {
     flex-wrap: wrap;
     justify-self: flex-start;
     width: 200px;
     height: 100vh;
     background: #FFFFFF 0% 0% no-repeat padding-box;
 }
-.sidebar img{
+
+.sidebar img {
     width: 100px;
     height: 100px;
 }
-.row{
+
+.row {
     height: 44px;
 }
-.row_selected{
+
+.row_selected {
     height: 44px;
     background: #4CC3BE 0% 0% no-repeat padding-box;
     color: white;
     vertical-align: middle;
 }
-.rectangle{
+
+.rectangle {
     background-color: white;
     width: 437px;
     height: 45px;
@@ -41,12 +67,14 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.rectangle p{
+
+.rectangle p {
     font-size: 15px;
     color: #43425D;
     opacity: 0.75;
 }
-.usluga{
+
+.usluga {
     width: 180px;
     height: 39px;
     background: #4CC3BE 0% 0% no-repeat padding-box;
@@ -54,7 +82,8 @@
     color: white;
     font-size: 12px;
 }
-.trajanje{
+
+.trajanje {
     width: 90px;
     height: 39px;
     background: #4CC3BE 0% 0% no-repeat padding-box;
@@ -62,11 +91,13 @@
     color: white;
     font-size: 12px;
 }
-.trajanje img{
+
+.trajanje img {
     width: 19px;
     height: 19px;
 }
-.cijena{
+
+.cijena {
     width: 70px;
     height: 39px;
     background: #4CC3BE 0% 0% no-repeat padding-box;
@@ -74,7 +105,8 @@
     color: white;
     font-size: 12px;
 }
-.cijena img{
+
+.cijena img {
     width: 19px;
     height: 19px;
 }

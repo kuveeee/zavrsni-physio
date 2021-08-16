@@ -1,0 +1,25 @@
+import React from 'react'
+import logo from "../assets/logo.png";
+
+function Sidebar() {
+    return (
+        <div class="sidebar">
+            <img class="logo" src={logo} alt="Logo"></img>
+              <div class="break"></div>
+              <div class="row">
+                 <p>RED</p>
+             </div>
+             <div class="row">
+                <p>DODAVANJE KLIJENTA</p>
+             </div>
+             <div class="row_selected">
+                <p>USLUGE</p>
+            </div>
+            <div class="row">
+                <p>RED</p>
+            </div>
+        </div>
+    )
+}
+
+export default Sidebar
