@@ -26,14 +26,11 @@ function Login() {
                         <div class="flex_row">
                             <p>Dobrodošli natrag! Molim prijavite se na račun.</p>
                         </div>
-                        <input type="email" placeholder="e-mail"></input>
+                        <input placeholder="e-mail"></input>
                         <div class="flex_row">
-                            <input type="password" placeholder="zaporka"></input>
+                            <input placeholder="zaporka"></input>
                         </div>
-                        <div class="flex_row">
-                            <input type="password" placeholder="ponovite zaporku"></input>
-                        </div>
-                        <button type="submit" value="Submit" class="registracija">
+                        <button class="registracija">
                             <p>Registracija</p>
                         </button>
 
