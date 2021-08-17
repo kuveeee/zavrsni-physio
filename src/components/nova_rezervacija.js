@@ -1,9 +1,9 @@
-import './nova_rezervacija.css';
+import './styles/nova_rezervacija.css';
 import {Fragment} from "react";
 
 //importanje asseta
 import logo from "./assets/logo.png"
-import sex from "./assets/nova_rezervacija/woman.png";
+import sex_w from "./assets/nova_rezervacija/woman.png";
 
 function NovaRezervacija () {
     return (
@@ -30,7 +30,7 @@ function NovaRezervacija () {
                 <div class="break"></div>
                 
                 <div class="klijent">
-                    <img class="woman" src={sex} alt="woman"></img>
+                    <img class="woman" src={sex_w} alt="woman"></img>
                     <div class="input">
                         <p>Ime</p>
                         <input type="text"></input>
