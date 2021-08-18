@@ -17,8 +17,11 @@ function Sidebar() {
                 <p>DODAVANJE KLIJENTA</p>
             </div>
             <div class="break"></div>
-            <div class="row_selected">
+            <div class="row">
                 <p>USLUGE</p>
+            </div>
+            <div class="row">
+                <p>KLIJENTI</p>
             </div>
             <div class="break"></div>
             <div class="row">

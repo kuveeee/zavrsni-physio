@@ -1,7 +1,7 @@
 import '../styles/Header.css';
 import {Fragment} from "react";
 import {BrowserRouter  as Router, Switch, Route}  from 'react-router-dom';
-import Login from './login';
+//import Login from './login';
 
 //importanje asseta
 import logo from '../assets/logo.png';

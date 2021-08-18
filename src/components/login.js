@@ -1,4 +1,4 @@
-import './styles/login.css';
+import './styles/Login.css';
 import { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -22,16 +22,12 @@ function Login() {
                             <div class="break"></div>
                             <p>Dobrodošli natrag! Molim prijavite se na račun.</p>
                             <div class="break"></div>
-                            <input></input>
+                            <input type="email" placeholder="e-mail"></input>
                             <div class="break"></div>
-                            <input></input>
+                            <input type="password" placeholder="ponovite zaporku"></input>
                             <div class="break"></div>
                             <button class="prijava">
                                 <p>Prijava</p>
-                            </button>
-                            <div class="break"></div>
-                            <button class="registracija">
-                                <p>Registracija</p>
                             </button>
                         </div>
                     </div>

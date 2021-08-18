@@ -1,4 +1,4 @@
-import './styles/login.css';
+import './styles/Login.css';
 import { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import logo from './assets/logo.png';
 import physical_image from './assets/login/physical2x.png';
 
-function Login() {
+function Signup() {
     return (
         <Fragment>
             <div class="login_body">
@@ -26,11 +26,14 @@ function Login() {
                         <div class="flex_row">
                             <p>Dobrodošli natrag! Molim prijavite se na račun.</p>
                         </div>
-                        <input placeholder="e-mail"></input>
+                        <input type="email" placeholder="e-mail"></input>
                         <div class="flex_row">
-                            <input placeholder="zaporka"></input>
+                            <input type="password" placeholder="zaporka"></input>
                         </div>
-                        <button class="registracija">
+                        <div class="flex_row">
+                            <input type="password" placeholder="ponovite zaporku"></input>
+                        </div>
+                        <button type="submit" value="Submit" class="registracija">
                             <p>Registracija</p>
                         </button>
 
@@ -42,4 +45,4 @@ function Login() {
     )
 }
 
-export default Login;
+export default Signup;
