@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import Klijenti from './Klijenti';
 import NovaRezervacija from './NovaRezervacija';
-import Usluge from './Usluge';
+import Usluge from '../components/Usluge';
 
 function Sidebar() {
   return (

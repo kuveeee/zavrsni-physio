@@ -2,10 +2,14 @@ import React from 'react';
 import './styles/Klijenti.css';
 import { Fragment } from 'react';
 import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import Dashboard from './components/Dashboard';
 
-function Klijenti() {
+function App() {
   return (
     <Fragment>
+      <Header />
+      <Dashboard />
       <div class="flex_row">
         <Sidebar />
       </div>
@@ -13,4 +17,4 @@ function Klijenti() {
   );
 }
 
-export default Klijenti;
+export default App;
