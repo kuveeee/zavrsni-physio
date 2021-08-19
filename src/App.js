@@ -1,43 +1,97 @@
-import React from 'react'
-import './styles/Klijenti.css';
-import { Fragment } from "react";
-import Sidebar from './components/Sidebar';
+import React from "react";
+import './styles/App.css';
+import {Fragment} from "react";
+import {BrowserRouter, Switch, Route}  from 'react-router-dom';
+import Header from './components/Header';
+//import Login from './components/Login';
 
-function Klijenti() {
-    return (
-        <Fragment>
-            <div class="flex_row">
-                <Sidebar />
-                <div class="flex_column">
-                    <div class="klijenti_body">
-                        <h1>Klijenti</h1>
-                        <div class="flex_row">
+//importanje asseta
+import nova_rezervacija from './assets/nova_rezervacija_slika.png';
+import trajanje_usluge from './assets/usluge/trajanje_usluge.png';
+import cijena_usluge from './assets/usluge/cijena_usluge.png';
+
+class App extends React.Component {
+    render() {
+        return (
+                <Fragment>
+                    <Header />
+                    <div class="app_body">                
+                        <br></br>
+                        <h1>Početna ploča</h1>
+                        <div class="break"></div>
+                        <div class = "kalendar" >
+                            <p>Kalendar</p>
+                        </div>
+                        <div class = "nova_rezervacija" >
+                            <p>Nova rezervacija</p>
+                            <img class="nova_rezervacija_slika" src={nova_rezervacija} alt="Nova rezervacija" />
+                        </div>
+                        <div class="termini">
+                            <p></p>
+                        </div>
+                        <div class="break"></div>
+                        <div class = "klijenti" >
+                            <p>Klijenti</p>
+                            <div class="break"></div>
+                            <p>250</p>
+                        </div>
+                        <div class = "financije" >
+                            <p>Financije</p> 
+                        </div>
+                        <div class="break"></div>
+                        <div class = "usluge" >
+                            <p>Usluge</p>
                             <div class="tablica">
-                                <li>IME I PREZIME</li>
-                                <li>KONTAKT BROJ</li>
-                                <li>E-POŠTA</li>
-                                <li>DATUM ROĐENJA</li>
-                                <li>SPOL</li>
+                                <ul>
+                                    <ol>
+                                        <h3>Naziv usluge</h3>
+                                    </ol>
+                                    <ol>
+                                        <img class="trajanje usluge" src={trajanje_usluge} alt="trajanje_usluge"></img>
+                                    </ol>
+                                    <ol>
+                                    <img class="cijena usluge" src={cijena_usluge} alt="cijena_usluge"></img>
+                                    </ol>
+                                </ul>
                             </div>
-
-                            <div class="klijent">
+                        </div>
+                        <div class="termini">
+                            <p>Slijedeći termini</p>
+                            <div class="termin">
+                                <p><strong>Lorem ipsum</strong> sa Saeed Kay</p>
+                                <div class="break"></div>
+                                <p>08:00-09:00</p>
                             </div>
-                            <div class="klijent">
+                            <div class="termin">
+                                <p><strong>Lorem ipsum</strong> sa Saeed Kay</p>
+                                <div class="break"></div>
+                                <p>08:00-09:00</p>
                             </div>
-                            <div class="klijent">
+                            <div class="termin">
+                                <p><strong>Lorem ipsum</strong> sa Saeed Kay</p>
+                                <div class="break"></div>
+                                <p>08:00-09:00</p>
                             </div>
-                            <div class="klijent">
+                            <div class="termin">
+                                <p><strong>Lorem ipsum</strong> sa Saeed Kay</p>
+                                <div class="break"></div>
+                                <p>08:00-09:00</p>
                             </div>
-                            <div class="klijent">
+                            <div class="termin">
+                                <p><strong>Lorem ipsum</strong> sa Saeed Kay</p>
+                                <div class="break"></div>
+                                <p>08:00-09:00</p>
                             </div>
-                            <div class="klijent">
+                            <div class="termin">
+                                <p><strong>Lorem ipsum</strong> sa Saeed Kay</p>
+                                <div class="break"></div>
+                                <p>08:00-09:00</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </Fragment>
-    )
+                </Fragment>
+        );
+    }
 }
 
-export default Klijenti
+export default App;
