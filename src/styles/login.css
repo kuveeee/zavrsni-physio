@@ -1,96 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 .login_body {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Source Sans Pro';
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Source Sans Pro';
 }
 
 .flex_row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .flex_column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
 .break {
-    flex-basis: 100%;
-    height: 0;
+  flex-basis: 100%;
+  height: 0;
 }
 
 .physical_image {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
 }
 
-.physical_image img {}
-
 .login_form {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 h1 {
-    height: 64px;
-    text-align: left;
-    color: #43425D;
-    letter-spacing: 9px;
-    margin: 0;
+  height: 64px;
+  text-align: left;
+  color: #43425d;
+  letter-spacing: 9px;
+  margin: 0;
 }
 
 p {
-    letter-spacing: 0px;
-    color: #4D4F5C;
-    opacity: 0.5;
-    margin: 0;
-    margin-bottom: 70px;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+  opacity: 0.5;
+  margin: 0;
+  margin-bottom: 70px;
 }
 
 input {
-    width: 270px;
-    margin-bottom: 30px;
+  width: 270px;
+  margin-bottom: 30px;
 }
 
 .prijava {
-    background: #4CC3BE;
-    border-radius: 4px;
-    width: 185px;
-    height: 50px;
+  background: #4cc3be;
+  border-radius: 4px;
+  width: 185px;
+  height: 50px;
 }
 
 .prijava p {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .prijava:hover {
-    background-color: white;
-    color: #4D4F5C;
+  background-color: white;
+  color: #4d4f5c;
 }
 
 .registracija {
-    border: 1px solid #43425D;
-    color: #FFFFFF;
-    background: #4CC3BE;
-    border-radius: 4px;
-    width: 185px;
-    height: 50px;
+  border: 1px solid #43425d;
+  color: #ffffff;
+  background: #4cc3be;
+  border-radius: 4px;
+  width: 185px;
+  height: 50px;
 }
 
 .registracija p {
-    font: normal normal normal 18px/13px Source Sans Pro;
-    letter-spacing: 0px;
-    color: #4D4F5C;
+  font: normal normal normal 18px/13px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4d4f5c;
 }
 
 .registracija:hover {
-    background-color: white;
-    color: #4D4F5C;
+  background-color: white;
+  color: #4d4f5c;
 }
