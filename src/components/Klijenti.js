@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../styles/Klijenti.css';
+import '../styles/Klijenti.css';
 import { Fragment } from 'react';
 
 function Klijenti() {
