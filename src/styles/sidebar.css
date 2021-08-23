@@ -1,7 +1,11 @@
 .sidebar {
-    width: 200px;
+    width: 250px;
     height: 100vh;
     background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+p{
+    font-size: 20px;
 }
 
 .flex_row {
@@ -25,12 +29,16 @@
 .sidebar img {}
 
 .row {
-    height: 30px;
+    height: 50px;
+}
+
+.row:hover {
+    background: #4CC3BE 0% 0% no-repeat padding-box;
 }
 
 .row_selected {
     height: 40px;
-    margin:0 -5px;
+    margin: 0 -5px;
     background: #4CC3BE 0% 0% no-repeat padding-box;
     color: white;
     vertical-align: middle;

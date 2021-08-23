@@ -11,7 +11,6 @@ function App() {
       <Header />
       <Dashboard />
       <div class="flex_row">
-        <Sidebar />
       </div>
     </Fragment>
   );
