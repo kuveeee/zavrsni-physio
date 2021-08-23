@@ -134,6 +134,48 @@ function Usluge() {
                 </div>
               </div>
             </div>
+            <div class="flex_row">
+              <div class="rectangle">
+                <div class="flex_column">
+                  <div class="usluga">
+                    <h3>Usluga 1</h3>
+                  </div>
+                </div>
+                <div class="flex_column">
+                  <div class="trajanje">
+                    <h3>Trajanje</h3>
+                    <img class="trajanje" src={trajanje} alt="Trajanje usluge"></img>
+                  </div>
+                </div>
+                <div class="flex_column">
+                  <div class="cijena">
+                    <h3>Cijena</h3>
+                    <img class="cijena" src={cijena} alt="Cijena usluge"></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex_row">
+              <div class="rectangle">
+                <div class="flex_column">
+                  <div class="usluga">
+                    <h3>Usluga 1</h3>
+                  </div>
+                </div>
+                <div class="flex_column">
+                  <div class="trajanje">
+                    <img class="trajanje" src={trajanje} alt="Trajanje usluge"></img>
+                    <h3>Trajanje</h3>
+                  </div>
+                </div>
+                <div class="flex_column">
+                  <div class="cijena">
+                    <img class="cijena" src={cijena} alt="Cijena usluge"></img>
+                    <h3>Cijena</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

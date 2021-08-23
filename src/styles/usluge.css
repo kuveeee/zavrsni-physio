@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-
 body {
-    font-family: 'Source Sans Pro';  
+    font-family: 'Source Sans Pro';
     display: flex;
     flex-wrap: wrap;
 }
 
-h1{
+h1 {
     color: #43425D;
     text-shadow: 0px 3px 6px #00000029;
-    padding-right: 200px;
+    padding-right: 300px;
 }
 
 .body {
@@ -19,23 +18,25 @@ h1{
     padding-left: 45px;
 }
 
-.nova_usluga{
+.nova_usluga {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 27px;
     width: 100px;
     height: 40px;
-    align-self:center;
+    align-self: center;
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
 }
-.nova_usluga img{
+
+.nova_usluga img {
     width: 22px;
     height: 22px;
 }
-.nova_usluga h3{
+
+.nova_usluga h3 {
     font: normal normal bold 18px/30px Source Sans Pro;
     letter-spacing: 0px;
     color: #43425D;
@@ -55,6 +56,7 @@ h1{
     flex-basis: 100%;
     flex: 1;
 }
+
 .rectangle {
     background-color: white;
     width: 525px;
@@ -81,6 +83,7 @@ h1{
     font-size: 12px;
     margin-right: 40px;
     margin-top: 5px;
+    padding-left: 12px;
 }
 
 .trajanje {
@@ -92,6 +95,7 @@ h1{
     font-size: 12px;
     margin-right: 40px;
     margin-top: 5px;
+    padding-left: 12px;
 }
 
 .trajanje img {
@@ -107,6 +111,7 @@ h1{
     color: white;
     font-size: 12px;
     margin-top: 5px;
+    padding-left: 12px;
 }
 
 .cijena img {
