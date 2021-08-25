@@ -7,14 +7,10 @@ import Klijenti from './Klijenti';
 import NovaRezervacija from './NovaRezervacija';
 import Usluge from '../components/Usluge';
 
-//assets
-import logo from '../assets/logo.png';
-
 function Sidebar() {
   return (
     <Router>
       <div class="sidebar">
-        <img class="logo" src={logo} alt="Logo"></img>
         <div class="break"></div>
         <Link exact to="/">
           <div class="row">

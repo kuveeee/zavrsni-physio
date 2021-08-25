@@ -23,7 +23,9 @@ function Login() {
                                 <h1>Kinetic centar</h1>
                             </div>
                             <div class="break"></div>
-                            <p>Dobrodošli natrag! Molim prijavite se na račun.</p>
+                            <div class="dobrodosli">
+                                <h2>Dobrodošli natrag! Molim prijavite se na račun.</h2>
+                            </div>
                             <div class="break"></div>
                             <input type="email" placeholder="e-mail"></input>
                             <div class="break"></div>
