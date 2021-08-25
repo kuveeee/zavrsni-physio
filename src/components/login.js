@@ -2,6 +2,7 @@ import '../styles/Login.css';
 import { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Dashboard from './Dashboard';
+import Registracija from './Registracija';
 
 //importanje asseta
 import logo from '../assets/logo.png';
@@ -42,6 +43,7 @@ function Login() {
             </div>
             <Switch>
                 <Route path="/Dashboard" component={Dashboard} />
+                {/* <Route path="/Registracija" component={Registracija} /> */}
             </Switch>
         </Router >
     )
