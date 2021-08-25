@@ -1,14 +1,15 @@
-import './styles/Login.css';
+import '../styles/Login.css';
 import { Fragment } from "react";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Dashboard from '../components/Dashboard';
 
 //importanje asseta
-import logo from './assets/logo.png';
-import physical_image from './assets/login/physical2x.png';
+import logo from '../assets/logo.png';
+import physical_image from '../assets/login/physical2x.png';
 
 function Login() {
     return (
-        <Fragment>
+        <Router>
             <div class="login_body">
                 <div class="flex_row">
                     <div class="flex_column">
@@ -18,7 +19,9 @@ function Login() {
                         <div class="login_form">
                             <img class="logo" src={logo} alt="Logo"></img>
                             <div class="break"></div>
-                            <h1>Kinetic centar</h1>
+                            <div class="h1_login">
+                                <h1>Kinetic centar</h1>
+                            </div>
                             <div class="break"></div>
                             <p>Dobrodošli natrag! Molim prijavite se na račun.</p>
                             <div class="break"></div>
@@ -26,14 +29,19 @@ function Login() {
                             <div class="break"></div>
                             <input type="password" placeholder="ponovite zaporku"></input>
                             <div class="break"></div>
-                            <button class="prijava">
-                                <p>Prijava</p>
-                            </button>
+                            <Link exact to="/Dashboard">
+                                <button class="prijava">
+                                    <p>Prijava</p>
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
-        </Fragment>
+            <Switch>
+                <Route path="/Dashboard" component={Dashboard} />
+            </Switch>
+        </Router >
     )
 }
 

@@ -43,12 +43,13 @@ body{
   justify-content: center;
 }
 
-h1 {
+.h1_login h1 {
   height: 64px;
   color: #43425d;
   letter-spacing: 9px;
   margin: 0;
   font-size: 50px;
+  padding-right: 0px !important;
 }
 
 h2 {
