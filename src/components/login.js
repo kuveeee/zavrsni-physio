@@ -1,4 +1,4 @@
-import '../styles/Login.css';
+import '../styles/login.css';
 import { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Dashboard from '../components/Dashboard';
