@@ -1,10 +1,10 @@
 import React from 'react';
-import './styles/login.css';
+import './styles/Login.css';
 import { Fragment } from 'react';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
-import Login from './components/login';
+import Login from './components/Login';
 
 function App() {
   return (

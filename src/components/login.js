@@ -1,7 +1,7 @@
-import '../styles/login.css';
+import '../styles/Login.css';
 import { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Dashboard from '../components/Dashboard';
+import Dashboard from './Dashboard';
 
 //importanje asseta
 import logo from '../assets/logo.png';
