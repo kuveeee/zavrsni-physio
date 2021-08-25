@@ -11,6 +11,7 @@ import physical_image from '../assets/login/physical2x.png';
 function Login() {
     return (
         <Router>
+
             <div class="login_body">
                 <div class="flex_row">
                     <div class="flex_column">
@@ -37,13 +38,18 @@ function Login() {
                                     <p>Prijava</p>
                                 </button>
                             </Link>
+                            <div class="break"></div>
+                            <br></br>
+                            <Link exact to="/Registracija">
+                                Registracija
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
             <Switch>
                 <Route path="/Dashboard" component={Dashboard} />
-                {/* <Route path="/Registracija" component={Registracija} /> */}
+                <Route path="/Registracija" component={Registracija} />
             </Switch>
         </Router >
     )
