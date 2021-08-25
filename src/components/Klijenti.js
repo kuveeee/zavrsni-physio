@@ -9,7 +9,7 @@ import plus from '../assets/usluge/plus.png';
 
 function Klijenti() {
   return (
-    <Fragment>
+    <Router>
       <div class="flex_row">
         <Sidebar />
         <div class="flex_column">
@@ -20,7 +20,7 @@ function Klijenti() {
               <h3>Novi klijent</h3>
             </div>
             <div class="flex_row">
-              <div class="tablica">
+              <div class="klijenti_tablica">
                 <li>IME I PREZIME</li>
                 <li>KONTAKT BROJ</li>
                 <li>E-POŠTA</li>
@@ -40,7 +40,7 @@ function Klijenti() {
           </div>
         </div>
       </div>
-    </Fragment>
+    </Router>
   );
 }
 
