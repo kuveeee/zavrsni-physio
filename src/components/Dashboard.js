@@ -3,7 +3,7 @@ import '../styles/App.css';
 import '../styles/Dashboard.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import NovaRezervacija from '../components/NovaRezervacija';
-import Kalendar from '../components/Kalendar';
+import Naplaćivanje from '../components/Naplaćivanje';
 import Klijenti from '../components/Klijenti';
 import Usluge from '../components/Usluge';
 
@@ -63,7 +63,12 @@ function Dashboard() {
                         </div>
                     </div>
                 </Link>
-                <div class="termini">
+                <Link exact to="/Naplaćivanje">
+                    <div class="naplacivanje" >
+                        <p>Naplaćivanje</p>
+                    </div>
+                </Link>
+                {/* <div class="termini">
                     <p>Slijedeći termini</p>
                     <div class="termin">
                         <p><strong>Lorem ipsum</strong> sa Saeed Kay</p>
@@ -95,11 +100,11 @@ function Dashboard() {
                         <div class="break"></div>
                         <p>08:00-09:00</p>
                     </div>
-                </div>
+                </div> */}
             </div>
             <Switch>
                 <Route path="/Nova-Rezervacija" component={NovaRezervacija} /> {/* kriv naziv rute al ok */}
-                <Route path="/Kalendar" component={Kalendar} />
+                <Route path="/Naplaćivanje" component={Naplaćivanje} />
                 <Route path="/Klijenti" component={Klijenti} />
                 <Route path="/Usluge" component={Usluge} />
             </Switch>

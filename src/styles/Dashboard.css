@@ -145,9 +145,31 @@ p {
     color: #43425d;
     padding-top: 3px;
     padding-left: 20px;
+    margin-right: 184px;
 }
 
 .usluge:hover{
+    background-color: #DAF1F1;
+}
+
+.naplacivanje {
+    width: 224px;
+    height: 148px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #0000001A;
+    border-radius: 12px;
+    opacity: 1;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    color: #43425d;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.naplacivanje:hover{
     background-color: #DAF1F1;
 }
 

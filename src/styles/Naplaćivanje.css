@@ -1,0 +1,40 @@
+.naplacivanje_body {
+    background: #fbfbfd;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 45px;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.h1 {
+    font-size: 45px;
+    text-align: left;
+    font-weight: bold;
+    color: #43425D;
+    text-shadow: 0px 3px 6px #0000001A;
+    padding-right: 800px;
+}
+
+.naplacivanje_pacijent{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+}
